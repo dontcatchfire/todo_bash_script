@@ -34,13 +34,13 @@ ToDoTxt="$HOME/todo.txt"
 
 
 if [ $task == 1 ]; then
-	echo ">> $Task1 selected" && echo "$Task1" >> "ToDoTxt"
+	echo ">> $Task1 selected" && echo "$Task1" >> "$ToDoTxt"
 elif [ $task == 2 ]; then 
-	echo ">> $Task2 selected" && echo "$Task2" >> "ToDoTxt"
+	echo ">> $Task2 selected" && echo "$Task2" >> "$ToDoTxt"
 elif [ $task == 3 ]; then
-	echo ">> $Task3 selected" && echo "$Task3" >> "ToDoTxt"
+	echo ">> $Task3 selected" && echo "$Task3" >> "$ToDoTxt"
 elif [ $task == 4 ]; then
-	echo ">> $Task4 selected" && echo "$Task4" >> "ToDoTxt"
+	echo ">> $Task4 selected" && echo "$Task4" >> "$ToDoTxt"
 else 
 	echo ">> Please choose an available task."
 fi
