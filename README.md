@@ -25,3 +25,15 @@ Image 3: In image 3, I assigned the todo.txt file located in to home directory t
 ![](<images/image 4.png>)
 
 Image 4: In the image, the scripts waits for the user to select a task using numbers 1 to 4. Referencing Image 1 at rectangle 1, each number corresponds to its task.
+
+## IMG 5
+
+![](<images/image 5.png>)
+
+Image 5: This image shows the user runs the script and chooses task 1. The script outputs comfirmation of the chosen task. The script stays up till the user decides to exit it. 
+
+## IMG 6
+
+![](<images/image 6.png>)
+
+Image 6: Here the logs of each task that has been selected is saved in the todo.txt file located in the home directory.
